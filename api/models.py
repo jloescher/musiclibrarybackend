@@ -10,3 +10,4 @@ class Music(models.Model):
     length = models.PositiveIntegerField(help_text="Length of song in seconds")
     release_date = models.DateField(auto_now=True)
     genre = models.CharField(max_length=100)
+    likes = models.PositiveIntegerField(default=0)
