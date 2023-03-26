@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Music",
+    "dateExported": "2023-03-26T20:45:46.633Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d9f97384-dfa0-4b50-9351-7076914e9ff2",
+            "colId": "e6d77d28-a594-4b37-b976-ce9082d86e52",
+            "containerId": "",
+            "name": "Delete Music",
+            "url": "http://127.0.0.1:8000/api/music/2",
+            "method": "DELETE",
+            "sortNum": 10000,
+            "created": "2023-03-26T20:37:12.969Z",
+            "modified": "2023-03-26T20:37:12.969Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "acfb54ab-b69d-484a-aa58-5930a90d1306",
+            "colId": "e6d77d28-a594-4b37-b976-ce9082d86e52",
+            "containerId": "",
+            "name": "Create Music",
+            "url": "http://127.0.0.1:8000/api/music/",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-03-26T20:37:22.219Z",
+            "modified": "2023-03-26T20:37:22.219Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n\"title\": \"Hotel California\",\n\"artist\": \"Eagles\",\n\"album\": \"Hotel California\",\n\"genre\": \"Rock\",\n\"release_date\": \"1977-12-08\",\n\"length\": 390\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f2c25389-6f14-42de-8720-cd17105f17d1",
+            "colId": "e6d77d28-a594-4b37-b976-ce9082d86e52",
+            "containerId": "",
+            "name": "Update Music",
+            "url": "http://127.0.0.1:8000/api/music/4/",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-03-26T20:37:28.557Z",
+            "modified": "2023-03-26T20:37:28.557Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n\"title\": \"Billie Jean\",\n\"artist\": \"Michael Jackson\",\n\"album\": \"Thriller\",\n\"genre\": \"Pop\",\n\"release_date\": \"1983-01-02\",\n\"length\": 292\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "b8fcea0b-e2db-4196-b688-4e28caa95e42",
+            "colId": "e6d77d28-a594-4b37-b976-ce9082d86e52",
+            "containerId": "",
+            "name": "Get Music by Id",
+            "url": "http://127.0.0.1:8000/api/music/4",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-03-26T20:37:34.910Z",
+            "modified": "2023-03-26T20:37:34.910Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9dc18d37-6297-4b79-b725-a5991bd78437",
+            "colId": "e6d77d28-a594-4b37-b976-ce9082d86e52",
+            "containerId": "",
+            "name": "Get All Music",
+            "url": "http://127.0.0.1:8000/api/music",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-03-26T20:37:40.627Z",
+            "modified": "2023-03-26T20:37:40.627Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
