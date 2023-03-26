@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "Music",
-    "dateExported": "2023-03-26T20:45:46.633Z",
+    "dateExported": "2023-03-26T21:07:19.847Z",
     "version": "1.1",
     "folders": [],
     "requests": [
@@ -62,11 +62,25 @@
             "colId": "e6d77d28-a594-4b37-b976-ce9082d86e52",
             "containerId": "",
             "name": "Get Music by Id",
-            "url": "http://127.0.0.1:8000/api/music/4",
-            "method": "GET",
+            "url": "http://127.0.0.1:8000/api/music/4/like/",
+            "method": "POST",
             "sortNum": 40000,
             "created": "2023-03-26T20:37:34.910Z",
-            "modified": "2023-03-26T20:37:34.910Z",
+            "modified": "2023-03-26T21:06:23.785Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "1fd8d1ad-f899-4b36-b7d1-da3bc674b023",
+            "colId": "e6d77d28-a594-4b37-b976-ce9082d86e52",
+            "containerId": "",
+            "name": "Like Music by Id",
+            "url": "http://127.0.0.1:8000/api/music/4",
+            "method": "GET",
+            "sortNum": 45000,
+            "created": "2023-03-26T21:05:45.920Z",
+            "modified": "2023-03-26T21:05:45.920Z",
             "headers": [],
             "params": [],
             "tests": []
